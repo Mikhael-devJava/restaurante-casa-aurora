@@ -81,13 +81,47 @@ img {
 .creator-contact {
   display: grid;
   justify-items: center;
-  gap: 6px;
+  gap: 8px;
 }
 
-.creator-contact span {
+.creator-branding {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  color: var(--white);
+}
+
+.creator-branding img {
+  width: 86px;
+  height: 44px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.creator-branding-copy {
+  display: grid;
+  gap: 1px;
+  line-height: 1;
+}
+
+.creator-prefix {
   color: var(--gold);
-  font-size: 0.74rem;
-  font-weight: 900;
+  font-size: 0.62rem;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.creator-branding strong {
+  color: var(--white);
+  font-size: 1.05rem;
+  letter-spacing: 0;
+}
+
+.creator-subtitle {
+  color: rgba(255, 255, 255, 0.72);
+  font-size: 0.58rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
   text-transform: uppercase;
 }
 
@@ -127,20 +161,6 @@ img {
   background:
     linear-gradient(90deg, rgba(22, 12, 8, 0.88), rgba(22, 12, 8, 0.44), rgba(22, 12, 8, 0.16)),
     url("https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1800&q=85") center/cover;
-}
-
-.creator {
-  position: absolute;
-  top: 86px;
-  left: clamp(20px, 6vw, 84px);
-  padding: 8px 14px;
-  border: 1px solid rgba(255, 255, 255, 0.36);
-  border-radius: 999px;
-  color: var(--gold);
-  background: rgba(0, 0, 0, 0.24);
-  font-size: 0.84rem;
-  font-weight: 800;
-  text-transform: uppercase;
 }
 
 .hero-content {
@@ -341,8 +361,13 @@ h3 {
     justify-items: end;
   }
 
-  .creator-contact span {
+  .creator-prefix {
     font-size: 0.68rem;
+  }
+
+  .creator-branding img {
+    width: 78px;
+    height: 40px;
   }
 
   .hero {
@@ -351,11 +376,6 @@ h3 {
     background:
       linear-gradient(rgba(22, 12, 8, 0.82), rgba(22, 12, 8, 0.62)),
       url("https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1000&q=85") center/cover;
-  }
-
-  .creator {
-    top: 112px;
-    left: 20px;
   }
 
   .hero-actions,
@@ -384,10 +404,16 @@ h3 {
 
   .creator-contact {
     width: 100%;
-    justify-items: stretch;
+    justify-items: center;
   }
 
-  .creator-contact span {
+  .creator-branding {
+    justify-content: center;
+  }
+
+  .creator-prefix,
+  .creator-subtitle,
+  .creator-branding strong {
     text-align: center;
   }
 
