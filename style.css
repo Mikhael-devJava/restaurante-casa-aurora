@@ -78,6 +78,19 @@ img {
   color: rgba(255, 255, 255, 0.88);
 }
 
+.creator-contact {
+  display: grid;
+  justify-items: center;
+  gap: 6px;
+}
+
+.creator-contact span {
+  color: var(--gold);
+  font-size: 0.74rem;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
 .contact-button,
 .primary-action,
 .secondary-action,
@@ -324,6 +337,14 @@ h3 {
     padding: 0 16px;
   }
 
+  .creator-contact {
+    justify-items: end;
+  }
+
+  .creator-contact span {
+    font-size: 0.68rem;
+  }
+
   .hero {
     min-height: 760px;
     padding: 156px 20px 48px;
@@ -359,6 +380,19 @@ h3 {
   .brand span:last-child {
     max-width: 108px;
     line-height: 1.05;
+  }
+
+  .creator-contact {
+    width: 100%;
+    justify-items: stretch;
+  }
+
+  .creator-contact span {
+    text-align: center;
+  }
+
+  .contact-button {
+    width: 100%;
   }
 
   .nav {
