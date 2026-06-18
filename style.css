@@ -92,10 +92,14 @@ img {
 }
 
 .creator-branding img {
-  width: 86px;
-  height: 44px;
+  width: 104px;
+  height: 54px;
+  padding: 4px;
   object-fit: cover;
-  border-radius: 6px;
+  border: 1px solid rgba(255, 255, 255, 0.55);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.88);
+  box-shadow: 0 10px 26px rgba(0, 0, 0, 0.24);
 }
 
 .creator-branding-copy {
@@ -366,8 +370,8 @@ h3 {
   }
 
   .creator-branding img {
-    width: 78px;
-    height: 40px;
+    width: 94px;
+    height: 50px;
   }
 
   .hero {
