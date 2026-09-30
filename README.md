@@ -1,10 +1,37 @@
-# Casa Aurora Restaurante
+# 🍽️ Restaurante Casa Aurora
 
-Site estatico responsivo de restaurante ficticio criado para publicacao no GitHub Pages.
+Site estático e responsivo desenvolvido para representar o restaurante fictício **Casa Aurora**.  
+O projeto foi criado com foco em **publicação via GitHub Pages**, servindo como exemplo prático de construção e deploy de páginas web simples.
 
-## Publicar no GitHub Pages
+---
 
-1. Crie um repositorio no GitHub.
-2. Envie estes arquivos para a branch `main`.
-3. Em `Settings > Pages`, escolha `Deploy from a branch`.
-4. Selecione branch `main` e pasta `/root`.
+## 📖 Índice
+- [Sobre o projeto](#sobre-o-projeto)
+- [Tecnologias utilizadas](#tecnologias-utilizadas)
+- [Estrutura de arquivos](#estrutura-de-arquivos)
+- [Como visualizar](#como-visualizar)
+- [Deploy no GitHub Pages](#deploy-no-github-pages)
+- [Contribuição](#contribuição)
+- [Licença](#licença)
+
+---
+
+## 📝 Sobre o projeto
+O **Restaurante Casa Aurora** é um site fictício que apresenta:
+- Página inicial com informações básicas do restaurante.
+- Layout responsivo para diferentes dispositivos.
+- Identidade visual simples com logotipo e paleta de cores.
+
+Este projeto foi criado para fins de estudo e demonstração de publicação de sites estáticos.
+
+---
+
+## 🛠️ Tecnologias utilizadas
+- **HTML5** → Estrutura da página.
+- **CSS3** → Estilização e responsividade.
+- **GitHub Pages** → Hospedagem gratuita do site.
+
+---
+
+## 📂 Estrutura de arquivos
+- `index.html` → Página principal
